@@ -7,3 +7,5 @@
 4. pay attention to ultralytics/ultraltics/cfg, it's a config directory, add train.yaml, yolov8_a.yaml, this two files define the model structure and training parameters.
 5. the most important thing is to download coco2017 dataset, it's about 24G, and use 2.py to change it as yolo style.
 6. Finally, you can begin with `python train.py`
+---
+#### IF you find key_error: EMA, it must be the problem in your lib/site-packages! Please do the same change to your site-packages/ultralytics!
